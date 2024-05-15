@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.slotMachine {
+  background-color: lightgray;
+  height: 500px;
+  width: 900px;
+  display: flex;
+  padding: 40px;
+  border: 1px solid dimgray;
+  border-radius: 5px;
+
+}
+.reel {
+  display: flex;
+  flex: 1;
+  border: 1px solid dimgray;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: white;
+
+}
+.innerReel {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-size: 80px;
+}
+.btn {
+  width: 100px;
+}
